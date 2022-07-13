@@ -5,15 +5,39 @@ to get started with mkdocs.
 
 ### Structure Files
 
-- `src` - mkdocs source code
+
+```
+project
+│   README.md
+└───src
+│   │   docs
+│   │   site
+│   │   mkdocs.yml
+└───template
+    │   docs
+    │   material
+    │   mkdocs.yml
+```
+
+
+
+- `src` - mkdocs minimum
+
+- `docs` - mkdocs source code
 
 - `site` - mkdocs build directory
 
+- `mkdocs.yml` - mkdocs config
+
+- `templates` - [mkdocs-material](https://github.com/squidfunk/mkdocs-material) template
 
 
 ### Install
 
 - `pip install mkdocs`
+- `pip install mkdocs-material`
+- `pip install mkdocs-redirects`
+- `pip install mkdocs-minify-plugin`
 
 
 ### Development
